@@ -15,6 +15,7 @@ if(BUILD_TESTING)
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Person.msg"
+"srv/Query.srv"
 )
   # the following line skips the linter which checks for copyrights
   # comment the line when a copyright and license is added to all source files
